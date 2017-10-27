@@ -58,6 +58,17 @@ margin-right: auto;
 #resume-parent {
   padding: 4em 0;
   background: #EEE;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  
+}
+
+#resume-title {
+    text-align: center;
+    width: 100%;
 }
 
 .resume-child {
@@ -65,10 +76,13 @@ margin-right: auto;
   margin: 1em;
   background: #FFF;
   color: #515251;
+  width: 250px;
+  
 }
 
 .div-title {
   padding: 0.5em;
   font-size: 1.25em;
   background: #B4DBE5;
+  text-align: center;
 }
